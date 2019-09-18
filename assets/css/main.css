@@ -211,12 +211,18 @@ input, select, textarea {
 		clear: both;
 	}
 
+	.article_abme {
+		text-align: justify;
+		font-size: 20px;
+	}
+
 /* Container */
 
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
+		margin-bottom: -1em;
 	}
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
