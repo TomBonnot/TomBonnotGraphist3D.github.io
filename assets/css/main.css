@@ -2256,7 +2256,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url(./images/screen_2.PNG);
-				background-attachment: local, scroll;
+				display: block;
 			}
 
 			#main > section.two {
