@@ -122,7 +122,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: #000;
 		}
 
 	h2 {
@@ -132,7 +132,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
-			background-color: rgba(0,0,0,0.35);
+			background-color: rgba(0,0,0,0.60);
 		}
 
 			h2.alt strong {
@@ -1971,7 +1971,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #0566b2;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1989,7 +1989,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #3278af;
 		}
 
 		input[type="button"]:active,
@@ -1997,7 +1997,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #24567e;
 		}
 
 /* Item */
@@ -2256,11 +2256,12 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner_2.PNG");
+				background-image: url("../../images/screen_2.PNG");
 			}
 
 			#main > section.two {
 				background-color: #f5fafa;
+				/*border-top: solid 25px rgba(34, 38, 41, 1);*/
 			}
 
 			#main > section.three {

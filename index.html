@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
 		<script>
 			var num_block = 0;
-			function affiche(num_block){
+			function display(num_block){
 				switch(num_block){
 					case 1: 
 						if(document.getElementById('Button_1').innerHTML == '+'){
@@ -122,8 +122,8 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Tom Bonnot</strong></a>.</h2>
-								<p>In possession of a Master Degree in Game Management and Game Design<br />
+								<h2 class="alt"><strong>Hi! I'm Tom Bonnot</strong></h2>
+								<p style="color : #FFFFFF; background-color: rgba(0,0,0,0.50);">In possession of a Master Degree in Game Management and Game Design<br />
 								I have for objective to become a Game Artist 3D or a Game Designer</p>
 							</header>
 
@@ -135,7 +135,7 @@
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two" style="margin-top : -10px;">
+					<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
@@ -144,11 +144,87 @@
 
 							<p>I post some of my Work here that you can check on my ArtStation or SketchFab page. 
 							I'm working on a project created by students in my Master HIC, I'm a 3D Graphist.</p>
+					<!-- Projects -->
+						<div class="row">
+							<div class="col-6 col-12-mobile">
+								<article class="item" style="padding: 20px;"> 
+									<div class="image fit" style="padding-top: 22px; padding-bottom: 22px">
+										<a class="image fit"><img src="images/SomeLevel_2-min.png" alt="My project for the Master, 5months to make it" /></a>
 
-							<div class="row">
+										<button id="Button_1" onClick="display(1);">+</button>
+
+										<h2 class="article_abme" id="Hidden_1" style="padding-top: 22px; padding-bottom: 22px"> In this Master we are 12 groups of 2 or 3 persons to create and propose a project that we will have to present to the CODIR (COmité DIRecteur, COmmittee DIRector) and they will choose 6 out of thoses 12. A Game Design Document (GDD) has been created, an history, characters, world, gameplay, target audiance, marketting strategy has been made up. From now on we have 5 months to create a real prototype of this game, will be 10 persons per group. 
+										<br><br>
+										This is Poulpoutou, speech : <br>
+										Start an aventure surounded by squids and incarnate the Emperor's son to discover what is hiding behind this cute and harmless appearance world...<br>
+										It's up to you to find what the comique and satyre can hide in this under water world. 
+										<br><br>
+										Ludovic Gibault as Lead Developer and Project Owner (creator), Marince Capela as lead 3D Animation, me as Lead 3D graphism and SCRUM Master (creator) and Maxime Reminger as Lead Narration and Hugo Caumon and Etienne Blachon as Compositors.
+										We will create this 3D Aventure Action game in those 5 months with the help of some student of the first year, till the first build in February presentend at the Festival Internation du Jeu à Cannes (FIJ, International Festival of Game at Cannes). There will be very hard but a real experience for all of us ! There will be more description of this game soon. 
+										</h2>
+									</div>
+									<div class="image fit">
+										<a class="image fit"><img src="images/SuperEbourgeonMan.jpg" alt="Viedogame made at a Game Jam from the Master" /></a>
+
+										<button id="Button_2" onClick="display(2);">+</button>
+
+										<h2 class="article_abme" id="Hidden_2" style="padding-top: 22px; padding-bottom: 22px">
+										I did this video game "Super EbourgeonMan" at a GameJam organized by the Master HIC. 2 days to develop this game in full 3D, I did all the assets and I'm pretty proud of myself and I was afraid of not being able to make it. At least it went way better than expected. Looking forward the next Game Jam which is the <a href="https://globalgamejam.org/"> Global Game Jam the 25-27 January. </a>
+										</h2>
+									</div>
+								</article>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<article class="item" style="padding: 20px;"> 
+									<div class="image fit" style="padding-top: 22px;">
+										<a href="https://globalgamejam.org/2019/games/rubikscare" class="image fit"><img src="images/Rubik_scare.PNG" alt="Viedogame made at a Game Jam from the Master" /></a>
+
+										<button id="Button_3" onClick="display(3);">+</button>
+										
+										<h2 class="article_abme" id="Hidden_3" style="padding-top: 22px; padding-bottom: 22px">
+											We created a game this weekend on the theme of "How do you see your Home", and we got an idea.
+											<br> What is home for us ? At first it's a place where we will feel secure, nott threatened by anything, justt being here and taking good time. But, in our mind if  we stay too much long into our home, it could be very dangerous and will close ourselves to the World. We discussed for the first 2 hours of this GGJ (Global Game Jam) and then we started with an idea : Rubik'scare. 
+											<br> It's a rogue like game on the theme of a rubikscube, and we wanted to use a isometric view and a cell shading effect on Unity. We started building levele design, game design, rules of games, how we can play etc... And then we have Cubal, a big colored cube into a colored world, who need to go find his relatives in a dangerous world to build up his home, a rubikscube. He will unlock skills along his path and you will have to help him building his home. 
+											<br> In this game there is actually 5 primary levels, and then 4 levels by skill (they are 4). 5 Halls, 4 levels by skill, why 4 ? It's because, the first Hall you'll complete, it'll be raw, then you unlock a skill. After this, you'll do another Hall, but you have a new skill, then, on of the relatives on this Hall will be places somewhere else to put a level about this skill. 
+											<br><a href="https://globalgamejam.org/2019/games/rubikscare"> Here you can find the game and everything you need.</a>
+										</h2>
+
+										<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
+									</div>
+								<div class="col-6 col-12-mobile">
+									<div style="padding-top: 22px;">
+										<a href="https://globalgamejam.org/2020/games/just-fix-it-9" class="image fit"><img src="images/Just_Fix_It.png" alt="Viedogame made at a Game Jam from Montpellier - Sud PICCEL and Epitech" /></a>
+
+										<button id="Button_4" onClick="display(4);">+</button>
+										
+										<h2 class="article_abme" id="Hidden_4" style="padding-top: 22px; padding-bottom: 22px">
+											We created a game this weekend on the theme of "Repair", and we got an idea.
+											<br> To repair is "restore (something damaged, faulty, or worn) to a good condition." (from Oxford Languages), whaat is a good condition ? is it working or is it another state of the object ? We thought about it and we created a repairing station where the worker gets an object to repair, he has tools to remove things and he has to put new stuff on, when everything is done, he can put back the "repaired object" where he found it. 
+											<br> You can rotate the object and buttons are assigned to any things to remove or add, and you need to select the proper tool to remove or the thing to add. As simple as that.
+											<br><a href="https://globalgamejam.org/2020/games/just-fix-it-9"> Here you can find the game and everything you need.</a>
+										</h2>
+
+										<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
+									</div>
+								</div>
+								</article>
+							</div>
+						</div>
+						<!-- Sktechfab -->
+						<div class="row" style="margin-top: 40px;">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> --> 
+										<a href="https://www.artstation.com/artwork/9eke3N">
+											<div class="image fit">
+												<img src="images/Screen_Dofus_zaap.png">
+											</div>
+											<header>
+												<h3>Dofus Kolizeum Zaap</h3>
+											</header>
+										</a>
+									</article>
+									
+									<article class="item">
 										<div class="image fit">
 											<iframe class="image fit" width="420" height="286" src="https://sketchfab.com/models/e4b300fac8f44b2ea76116392a0ef977/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -180,7 +256,16 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<!--<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>-->
+										<article class="item">
+											<a href="https://www.artstation.com/artwork/EV9qe2">
+												<div class="image fit" >
+													<img src="images/Screen_M&C.png">
+												</div>
+												<header>
+													<h3>Monsters Inc. Sullivan and Bob's flat</h3>
+												</header>
+											</a>
+										</article>
 										<div class="image fit">
 											<iframe class="image fit" width="420" height="460" src="https://sketchfab.com/models/76447cfb11854cc2b4c2f54aa93d222f/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -212,7 +297,16 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<!--<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>-->
+										<article class="item">
+											<a href="https://www.artstation.com/artwork/k4a4Gz">
+												<div class="image fit">
+													<img src="images/Dofus_Auction_House.png">
+												</div>
+												<header>
+													<h3>Fictive Dofus auction house</h3>
+												</header>
+											</a>
+										</article>
 										<div class="image fit">
 											<iframe class="image fit" width="420" height="221" src="https://sketchfab.com/models/75a86390f6224a6d88f00a02f9f1bc63/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -245,93 +339,60 @@
 							</div>
 
 						</div>
+					</section>
+				<!-- About Me -->	
+					<section id="about" class="three">	
+						<header>
+							<h2>About Me</h2>
+							<p style="text-align: justify; padding: 20px;">
+								<b>French student in video games at Master MAJIC in Cannes</b>. I have a degree in computer science and I was interrested in programming but now, I have discovered 3D graphics and I'm focusing on it. I find it really interresting, the only idea of the limits and horizon of it are incredible and amazing and it's inspiring. About video games, I'm a big player myself. 
+								<br>I love to analyze the different gameplay, to see what's working or not and how it works. I love to see the video game industry evolve and increase in size every year, starting from scratch, as a subculture, disregarded by the majority, to an industry weighing billions of dollars, used all around the globe, and requiring a new field of science to work at its best. 
+								<br>I want to work in video games, from the <b>3D modeling to the animation and integration</b>. I want to create my own objects and maybe even characters. Trough all my years of study I had to work on a various projects so I can make myself fit really fast and well into new groups and work with people. I'm very open-minded and ready to help anyone with any situation.
+							</p>
+						</header>
+						<h3>Software used</h3><br>
 						<div class="row">
-							<div class="col-6 col-12-mobile">
-								<article class="item" style="padding: 20px;"> 
-									<div class="image fit" style="padding-top: 22px; padding-bottom: 22px">
-										<a class="image fit"><img src="images/SomeLevel_2-min.png" alt="My project for the Master, 5months to make it" /></a>
-
-										<button id="Button_1" onClick="affiche(1);">+</button>
-
-										<h2 class="article_abme" id="Hidden_1" style="padding-top: 22px; padding-bottom: 22px"> In this Master we are 12 groups of 2 or 3 persons to create and propose a project that we will have to present to the CODIR (COmité DIRecteur, COmmittee DIRector) and they will choose 6 out of thoses 12. A Game Design Document (GDD) has been created, an history, characters, world, gameplay, target audiance, marketting strategy has been made up. From now on we have 5 months to create a real prototype of this game, will be 10 persons per group. 
-										<br><br>
-										This is Poulpoutou, speech : <br>
-										Start an aventure surounded by squids and incarnate the Emperor's son to discover what is hiding behind this cute and harmless appearance world...<br>
-										It's up to you to find what the comique and satyre can hide in this under water world. 
-										<br><br>
-										Ludovic Gibault as Lead Developer and Project Owner (creator), Marince Capela as lead 3D Animation, me as Lead 3D graphism and SCRUM Master (creator) and Maxime Reminger as Lead Narration and Hugo Caumon and Etienne Blachon as Compositors.
-										We will create this 3D Aventure Action game in those 5 months with the help of some student of the first year, till the first build in February presentend at the Festival Internation du Jeu à Cannes (FIJ, International Festival of Game at Cannes). There will be very hard but a real experience for all of us ! There will be more description of this game soon. 
-										</h2>
-									</div>
+							<div class="col-3 col-6-mobile">
+								<article class="item">
 									<div class="image fit">
-										<a class="image fit"><img src="images/SuperEbourgeonMan.jpg" alt="Viedogame made at a Game Jam from the Master" /></a>
-
-										<button id="Button_2" onClick="affiche(2);">+</button>
-
-										<h2 class="article_abme" id="Hidden_2" style="padding-top: 22px; padding-bottom: 22px">
-										I did this video game "Super EbourgeonMan" at a GameJam organized by the Master HIC. 2 days to develop this game in full 3D, I did all the assets and I'm pretty proud of myself and I was afraid of not being able to make it. At least it went way better than expected. Looking forward the next Game Jam which is the <a href="https://globalgamejam.org/"> Global Game Jam the 25-27 January. </a>
-										</h2>
+										<a href="https://unity.com/"><img src="images/unity-masterbrand-black.png"></a>
 									</div>
 								</article>
 							</div>
-							<div class="col-6 col-12-mobile">
-								<article class="item" style="padding: 20px;"> 
-									<div class="image fit" style="padding-top: 22px;">
-										<a href="https://globalgamejam.org/2019/games/rubikscare" class="image fit"><img src="images/Rubik_scare.PNG" alt="Viedogame made at a Game Jam from the Master" /></a>
-
-										<button id="Button_3" onClick="affiche(3);">+</button>
-										
-										<h2 class="article_abme" id="Hidden_3" style="padding-top: 22px; padding-bottom: 22px">
-											We created a game this weekend on the theme of "How do you see your Home", and we got an idea.
-											<br> What is home for us ? At first it's a place where we will feel secure, nott threatened by anything, justt being here and taking good time. But, in our mind if  we stay too much long into our home, it could be very dangerous and will close ourselves to the World. We discussed for the first 2 hours of this GGJ (Global Game Jam) and then we started with an idea : Rubik'scare. 
-											<br> It's a rogue like game on the theme of a rubikscube, and we wanted to use a isometric view and a cell shading effect on Unity. We started building levele design, game design, rules of games, how we can play etc... And then we have Cubal, a big colored cube into a colored world, who need to go find his relatives in a dangerous world to build up his home, a rubikscube. He will unlock skills along his path and you will have to help him building his home. 
-											<br> In this game there is actually 5 primary levels, and then 4 levels by skill (they are 4). 5 Halls, 4 levels by skill, why 4 ? It's because, the first Hall you'll complete, it'll be raw, then you unlock a skill. After this, you'll do another Hall, but you have a new skill, then, on of the relatives on this Hall will be places somewhere else to put a level about this skill. 
-											<br><a href="https://globalgamejam.org/2019/games/rubikscare"> Here you can find the game and everything you need.</a>
-										</h2>
-
-										<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
+							<div class="col-3 col-6-mobile">
+								<article class="item">
+									<div class="image fit">
+										<a href="https://www.substance3d.com/products/substance-painter/"><img src="images/Substance_Painter_Logo.png"></a>
 									</div>
-								<div class="col-6 col-12-mobile">
-									<div style="padding-top: 22px;">
-										<a href="https://globalgamejam.org/2020/games/just-fix-it-9" class="image fit"><img src="images/Just_Fix_It.png" alt="Viedogame made at a Game Jam from Montpellier - Sud PICCEL and Epitech" /></a>
-
-										<button id="Button_4" onClick="affiche(4);">+</button>
-										
-										<h2 class="article_abme" id="Hidden_4" style="padding-top: 22px; padding-bottom: 22px">
-											We created a game this weekend on the theme of "Repair", and we got an idea.
-											<br> To repair is "restore (something damaged, faulty, or worn) to a good condition." (from Oxford Languages), whaat is a good condition ? is it working or is it another state of the object ? We thought about it and we created a repairing station where the worker gets an object to repair, he has tools to remove things and he has to put new stuff on, when everything is done, he can put back the "repaired object" where he found it. 
-											<br> You can rotate the object and buttons are assigned to any things to remove or add, and you need to select the proper tool to remove or the thing to add. As simple as that.
-											<br><a href="https://globalgamejam.org/2020/games/just-fix-it-9"> Here you can find the game and everything you need.</a>
-										</h2>
-
-										<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
+								</article>
+							</div>
+							<div class="col-3 col-6-mobile">
+								<article class="item">
+									<div class="image fit">
+										<a href="https://www.autodesk.fr/products/3ds-max/overview"><img src="images/3dsMax_Logo.png"></a>
 									</div>
-								</div>
+								</article>
+							</div>
+							<div class="col-3 col-6-mobile">
+								<article class="item">
+									<div class="image fit">
+										<a href="https://www.blender.org/"><img src="images/blender_logo_socket.png"></a>
+									</div>
 								</article>
 							</div>
 						</div>
 					</section>
-									<!-- About Me -->	
-					<section id="about" class="three">	
-						<header>
-								<h2>About Me</h2>
-								<p style="text-align: justify; padding: 20px;">
-									<b>French student in video games at Master MAJIC in Cannes</b>. I have a degree in computer science and I was interrested in programming but now, I have discovered 3D graphics and I'm focusing on it. I find it really interresting, the only idea of the limits and horizon of it are incredible and amazing and it's inspiring. About video games, I'm a big player myself. 
-									<br>I love to analyze the different gameplay, to see what's working or not and how it works. I love to see the video game industry evolve and increase in size every year, starting from scratch, as a subculture, disregarded by the majority, to an industry weighing billions of dollars, used all around the globe, and requiring a new field of science to work at its best. 
-									<br>I want to work in video games, from the <b>3D modeling to the animation and integration</b>. I want to create my own objects and maybe even characters. Trough all my years of study I had to work on a various projects so I can make myself fit really fast and well into new groups and work with people. I'm very open-minded and ready to help anyone with any situation. 
-								</p>
-							</header>
-					</section>
+
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container_footer">
+					<section id="contact" class="four" >
+						<div class="container_footer" style="margin-top: -70px; margin-bottom: -50px;">
 
 							<h2>Contact</h2>
 
-							<p>You can contact me here, I'm actif on my mails, You have my <a href="images/CV_TOM_Graphiste_3D-min.pdf"> Résumé right here.</a> 
+							<p>You can contact me here, I'm actif on my mails, You have my <a href="images/CV_TOM_Artist_3D-Paris-min.pdf"> Résumé right here.</a> 
 
-							<form method="post" action="mailto:tom.bonnot@outlook.com">
+							<form method="post" action="mailto:tom.bonnot@outlook.com" style="padding-left: 100px; padding-right: 100px;">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -349,7 +410,7 @@
 
 			</div>
 
-		<!-- Footer -->
+				<!-- Footer -->
 			<div id="footer">
 
 				<!-- Copyright -->
