@@ -232,6 +232,10 @@ input, select, textarea {
 		display: none;
 	}
 
+	#Hidden_5 {
+		display: none;
+	}
+
 /* Container */
 
 	.container {

@@ -55,6 +55,16 @@
 							document.getElementById('Hidden_4').style.display = 'none';
 						}
 						break;
+					case 5: 
+						if(document.getElementById('Button_5').innerHTML == '+'){
+							document.getElementById('Button_5').innerHTML = '-';
+							document.getElementById('Hidden_5').style.display='block';
+						}
+						else {
+							document.getElementById('Button_5').innerHTML = '+';
+							document.getElementById('Hidden_5').style.display = 'none';
+						}
+						break;
 					default:
 						console.log('default');
 				}
@@ -198,6 +208,32 @@
 										<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
 									</div>
 								</div>
+								</article>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<article class="item" style="padding: 20px;"> 
+									<div class="image fit" style="padding-top: 22px;">
+										<a href="https://routard.itch.io/medex-rogue-and-learn" class="image fit"><img src="images/MELEC_Banner_01.png" alt="Viedogame made at the Mix&Jam"/></a>
+
+										<button id="Button_5" onClick="display(5);">+</button>
+										
+										<h2 class="article_abme" id="Hidden_5" style="padding-top: 22px; padding-bottom: 22px">
+											With Yoann Maisonneuve, Anthony Cuttivet and Hélene Litzler we've particpated to this gamejam in Novembre, the Mix&jam (that's why the name is Melec, from Mélange et Confiture, litérally Mix&jam in French). A Mix between education and Rogue Like, we want that learning the Periodic Table through game is easier. You are a crazy scientific synthwave boy going through a 80's futuristic world, destroying Beakers filled with bad component with a Test Tube, when defeated they'll drop some atoms that you will grab and stock into your weapon. The first atom will define your attack buff.
+											You will have to discover all atoms of the periodic table (named MELEX here; only the ones we could have add in the game) by merging two atoms rightly.
+											<br>
+											Completing the MELEX is the end of the game, but be careful, it won't be possible in one single run, even if you beat the radioactive boss. 
+											<br>
+											Beating the boss will give you a choice between three rare atoms, the one you pick will be your first for the next run.
+											<br>
+											MELEC is the result of a combination from a Rogue Like, Shooter and Educative game, we also wanted to combined 2D and 3D graphics to dig deeper into the Jam's theme. Moreover we mixed good old Synthwave and rightful Chemistry (and that's pretty cool) !
+											<br> Good luck AT-0M Merger ! 
+											<br> GameJam's Team : <br>
+												Yoann MAISONNEUVE : Unity Developer - Git Master <br>
+												Anthony CUTTIVET : Unity Developer <br>
+												Hélène LITZLER : 2D Game Artist, UI/UX Artist <br>
+												Tom BONNOT : 3D Game Artist, Level Designer <br>
+										</h2>
+									</div>
 								</article>
 							</div>
 						</div>
